@@ -3,14 +3,14 @@ import requests
 import telebot
 
 
-host = '195.133.1.8'
+host = '127.0.0.1'
 port = 443
 listen = '0.0.0.0'
 ssl_cert = 'webhook_cert.pem'
 ssl_priv = 'webhook_pkey.pem'
 
 
-bot_1_token = '483692029:AAHLrSj6faWJP8WOZAJ2PpOVRDszdXM4XLw'   # botcoins_bot
+bot_1_token = 'API_TOKEN'   # botcoins_bot
 bot_1_address = 'http://127.0.0.1:7771'
 bot_1 = telebot.TeleBot(bot_1_token)
 
@@ -31,7 +31,7 @@ class WebhookServer(object):
 
 if __name__ == '__main__':
     bot_1.remove_webhook()
-    bot_1.set_webhook(url='https://195.133.1.8/botcoins_bot', certificate=open(ssl_cert, 'r'))
+    bot_1.set_webhook(url='https://127.0.0.1/botcoins_bot', certificate=open(ssl_cert, 'r'))
 
     cherrypy.config.update({
         'server.socket_host': listen,
