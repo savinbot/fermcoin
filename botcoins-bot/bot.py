@@ -9,8 +9,8 @@ import threading as th
 from message_key import *
 
 
-botan_key = '8e7e7810-2bbe-4e2f-8f1a-3fcab64808ee'
-token = '483692029:AAHLrSj6faWJP8WOZAJ2PpOVRDszdXM4XLw'
+botan_key = 'BOTAN_KEY'
+token = 'API_TOKEN'
 bot = telebot.TeleBot(token)
 
 
