@@ -6,11 +6,11 @@ import telebot
 host = '127.0.0.1'
 port = 443
 listen = '0.0.0.0'
-ssl_cert = 'webhook_cert.pem'
-ssl_priv = 'webhook_pkey.pem'
+ssl_cert = 'SSL_CERT'
+ssl_priv = 'SSL_KEY'
 
 
-bot_1_token = 'API_TOKEN'   # botcoins_bot
+bot_1_token = 'API_TOKEN'
 bot_1_address = 'http://127.0.0.1:7771'
 bot_1 = telebot.TeleBot(bot_1_token)
 
