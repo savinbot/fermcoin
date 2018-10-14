@@ -10,7 +10,7 @@ from message_key import *
 
 
 botan_key = 'BOTAN_KEY'
-token = '476911564:AAEl5h85lXnQPMkGVzvEEdc3Bvgu-ZRdF6U'
+token = '604698563:AAGPXjamODcRav7wnweEcxcraHpIMnGFVts'
 bot = telebot.TeleBot(token)
 
 
