@@ -1,4 +1,5 @@
-﻿import telebot
+# -*- coding: utf-8 -*-
+import telebot
 import cherrypy
 import time
 from telebot import types
